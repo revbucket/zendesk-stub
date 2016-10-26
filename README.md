@@ -1,11 +1,11 @@
-# meteor-zendesk-stub
+# zendesk-stub
 A stub for use in testing Meteor apps. Stubs the oauth calls and allows you to fake stub more.
 
 ##Usage:
 
-If you are using my Zendesk packages authentication, add this package like this:
+If you are using my Zendesk packages for authentication, add this package like this:
 
-`meteor add revbucket:meteor-zendesk-stub`
+`meteor add revbucket:zendesk-stub`
 
 Your app will no longer authenticate with Zendesk in development mode and will authenticate with
 a fake user even if you do not have an internet connection. This package does not affect production
