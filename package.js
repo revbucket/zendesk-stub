@@ -3,6 +3,8 @@ Package.describe({
   summary: "A stub for use in testing. Stubs the oauth calls amongst other APIs",
   version: "1.0.5",
   debugOnly: true,
+  documentation: 'README.md',
+  git: 'https://github.com/revbucket/zendesk-stub.git'
 
 });
 
